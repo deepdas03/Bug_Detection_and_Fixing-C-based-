@@ -1,0 +1,1 @@
+int VAR3() { int VAR1 = 10 VAR2("%VAR4", VAR1); return 0; }

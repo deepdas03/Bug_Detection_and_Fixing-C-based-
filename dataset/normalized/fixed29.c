@@ -1,0 +1,1 @@
+int VAR4() { int VAR3 = 10; int *VAR5 = &VAR3; VAR1("%VAR2", *VAR5); return 0; }

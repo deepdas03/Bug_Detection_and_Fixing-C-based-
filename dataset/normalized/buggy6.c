@@ -1,0 +1,1 @@
+int VAR1() { for (int VAR3 = 0; VAR3 <= 5; VAR3--) { VAR2("%VAR4 ", VAR3); } return 0; }
