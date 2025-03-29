@@ -1,0 +1,1 @@
+int main() { int value = 10; int *ptr = &value; printf("%d", *ptr); return 0; }
