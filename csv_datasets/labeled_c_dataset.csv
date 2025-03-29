@@ -1,0 +1,73 @@
+filename,code,label
+buggy1.c,"int main() { for (int i = 0; i <= 5; i--) { printf(""%d "", i); } return 0; }",1
+buggy10.c,"int main() { int x = 10 printf(""%d"", x); return 0; }",1
+buggy11.c,"int main() { for (int i = 0; i <= 5; i--) { printf(""%d "", i); } return 0; }",1
+buggy12.c,"#include <stdlib.h>
+int main() { int *ptr = (int *)malloc(10 * sizeof(int)); return 0; }",1
+buggy13.c,"int main() { int arr[5] = {1,2,3,4,5}; printf(""%d"", arr[10]); return 0; }",1
+buggy14.c,"int main() { int *ptr = NULL; printf(""%d"", *ptr); return 0; }",1
+buggy15.c,"int main() { int x = 10 printf(""%d"", x); return 0; }",1
+buggy16.c,"int main() { for (int i = 0; i <= 5; i--) { printf(""%d "", i); } return 0; }",1
+buggy17.c,"#include <stdlib.h>
+int main() { int *ptr = (int *)malloc(10 * sizeof(int)); return 0; }",1
+buggy18.c,"int main() { int arr[5] = {1,2,3,4,5}; printf(""%d"", arr[10]); return 0; }",1
+buggy19.c,"int main() { int *ptr = NULL; printf(""%d"", *ptr); return 0; }",1
+buggy2.c,"#include <stdlib.h>
+int main() { int *ptr = (int *)malloc(10 * sizeof(int)); return 0; }",1
+buggy20.c,"int main() { int x = 10 printf(""%d"", x); return 0; }",1
+buggy21.c,"int main() { for (int i = 0; i <= 5; i--) { printf(""%d "", i); } return 0; }",1
+buggy22.c,"#include <stdlib.h>
+int main() { int *ptr = (int *)malloc(10 * sizeof(int)); return 0; }",1
+buggy23.c,"int main() { int arr[5] = {1,2,3,4,5}; printf(""%d"", arr[10]); return 0; }",1
+buggy24.c,"int main() { int *ptr = NULL; printf(""%d"", *ptr); return 0; }",1
+buggy25.c,"int main() { int x = 10 printf(""%d"", x); return 0; }",1
+buggy26.c,"int main() { for (int i = 0; i <= 5; i--) { printf(""%d "", i); } return 0; }",1
+buggy27.c,"#include <stdlib.h>
+int main() { int *ptr = (int *)malloc(10 * sizeof(int)); return 0; }",1
+buggy28.c,"int main() { int arr[5] = {1,2,3,4,5}; printf(""%d"", arr[10]); return 0; }",1
+buggy29.c,"int main() { int *ptr = NULL; printf(""%d"", *ptr); return 0; }",1
+buggy3.c,"int main() { int arr[5] = {1,2,3,4,5}; printf(""%d"", arr[10]); return 0; }",1
+buggy30.c,"int main() { int x = 10 printf(""%d"", x); return 0; }",1
+buggy4.c,"int main() { int *ptr = NULL; printf(""%d"", *ptr); return 0; }",1
+buggy5.c,"int main() { int x = 10 printf(""%d"", x); return 0; }",1
+buggy6.c,"int main() { for (int i = 0; i <= 5; i--) { printf(""%d "", i); } return 0; }",1
+buggy7.c,"#include <stdlib.h>
+int main() { int *ptr = (int *)malloc(10 * sizeof(int)); return 0; }",1
+buggy8.c,"int main() { int arr[5] = {1,2,3,4,5}; printf(""%d"", arr[10]); return 0; }",1
+buggy9.c,"int main() { int *ptr = NULL; printf(""%d"", *ptr); return 0; }",1
+fixed1.c,"int main() { for (int i = 0; i <= 5; i++) { printf(""%d "", i); } return 0; }",0
+fixed10.c,"int main() { int x = 10; printf(""%d"", x); return 0; }",0
+fixed11.c,"int main() { for (int i = 0; i <= 5; i++) { printf(""%d "", i); } return 0; }",0
+fixed12.c,"#include <stdlib.h>
+int main() { int *ptr = (int *)malloc(10 * sizeof(int)); free(ptr); return 0; }",0
+fixed13.c,"int main() { int arr[5] = {1,2,3,4,5}; printf(""%d"", arr[4]); return 0; }",0
+fixed14.c,"int main() { int value = 10; int *ptr = &value; printf(""%d"", *ptr); return 0; }",0
+fixed15.c,"int main() { int x = 10; printf(""%d"", x); return 0; }",0
+fixed16.c,"int main() { for (int i = 0; i <= 5; i++) { printf(""%d "", i); } return 0; }",0
+fixed17.c,"#include <stdlib.h>
+int main() { int *ptr = (int *)malloc(10 * sizeof(int)); free(ptr); return 0; }",0
+fixed18.c,"int main() { int arr[5] = {1,2,3,4,5}; printf(""%d"", arr[4]); return 0; }",0
+fixed19.c,"int main() { int value = 10; int *ptr = &value; printf(""%d"", *ptr); return 0; }",0
+fixed2.c,"#include <stdlib.h>
+int main() { int *ptr = (int *)malloc(10 * sizeof(int)); free(ptr); return 0; }",0
+fixed20.c,"int main() { int x = 10; printf(""%d"", x); return 0; }",0
+fixed21.c,"int main() { for (int i = 0; i <= 5; i++) { printf(""%d "", i); } return 0; }",0
+fixed22.c,"#include <stdlib.h>
+int main() { int *ptr = (int *)malloc(10 * sizeof(int)); free(ptr); return 0; }",0
+fixed23.c,"int main() { int arr[5] = {1,2,3,4,5}; printf(""%d"", arr[4]); return 0; }",0
+fixed24.c,"int main() { int value = 10; int *ptr = &value; printf(""%d"", *ptr); return 0; }",0
+fixed25.c,"int main() { int x = 10; printf(""%d"", x); return 0; }",0
+fixed26.c,"int main() { for (int i = 0; i <= 5; i++) { printf(""%d "", i); } return 0; }",0
+fixed27.c,"#include <stdlib.h>
+int main() { int *ptr = (int *)malloc(10 * sizeof(int)); free(ptr); return 0; }",0
+fixed28.c,"int main() { int arr[5] = {1,2,3,4,5}; printf(""%d"", arr[4]); return 0; }",0
+fixed29.c,"int main() { int value = 10; int *ptr = &value; printf(""%d"", *ptr); return 0; }",0
+fixed3.c,"int main() { int arr[5] = {1,2,3,4,5}; printf(""%d"", arr[4]); return 0; }",0
+fixed30.c,"int main() { int x = 10; printf(""%d"", x); return 0; }",0
+fixed4.c,"int main() { int value = 10; int *ptr = &value; printf(""%d"", *ptr); return 0; }",0
+fixed5.c,"int main() { int x = 10; printf(""%d"", x); return 0; }",0
+fixed6.c,"int main() { for (int i = 0; i <= 5; i++) { printf(""%d "", i); } return 0; }",0
+fixed7.c,"#include <stdlib.h>
+int main() { int *ptr = (int *)malloc(10 * sizeof(int)); free(ptr); return 0; }",0
+fixed8.c,"int main() { int arr[5] = {1,2,3,4,5}; printf(""%d"", arr[4]); return 0; }",0
+fixed9.c,"int main() { int value = 10; int *ptr = &value; printf(""%d"", *ptr); return 0; }",0
